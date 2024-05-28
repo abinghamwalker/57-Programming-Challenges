@@ -1,4 +1,4 @@
-from src.Chap1 import tip_calculator, total_bill
+from Chapter_1.Chap1 import tip_calculator, total_bill
 from unittest.mock import patch
 
 @patch('builtins.input', side_effect=[100.0, 10])

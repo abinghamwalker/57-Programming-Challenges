@@ -25,7 +25,7 @@ def num_of_pizzas():
 def pizza_division(people, pizzas):
     pizza_div = (pizzas * 8) / people
     whole_slice = math.floor(pizza_div)
-    if whole_slice== 1:
+    if whole_slice == 1:
         print(f'Each person gets {whole_slice} piece of pizza.')
     else:
         print(f'Each person gets {whole_slice} pieces of pizza.')
